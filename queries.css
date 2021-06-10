@@ -1,0 +1,30 @@
+@media only screen and (max-width: 880px) {
+  .col {
+    width: 100%;
+  }
+
+  .section-cards {
+    all: initial;
+    text-align: center;
+  }
+
+  .row {
+    margin: 5% 20%;
+  }
+
+  .row .box {
+    padding: 10%;
+  }
+
+  .section-cards .main-box {
+    all: initial;
+  }
+
+  .row .box-left {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .row .box-right {
+    border-radius: 0 0 10px 10px;
+  }
+}

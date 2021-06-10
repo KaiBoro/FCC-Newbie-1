@@ -1,0 +1,109 @@
+/* ------ BASIC SETUP ------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  line-height: 1.5;
+  font-size: 15px;
+  font-family: 'Lexend Deca', 'Big Shoulders Display', sans-serif;
+  color: hsl(228, 45%, 44%);
+}
+
+.col {
+  margin: 0;
+}
+
+.section-cards {
+  position: relative;
+  height: 95vh;
+}
+
+/* ------ BOXES ------ */
+.main-box {
+  width: 750px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box {
+  padding: 4%;
+}
+
+.box-left {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
+}
+
+.box-middle {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.box-right {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
+}
+
+/* ------ HEADINGS ------ */
+
+h1 {
+  color: hsl(0, 0%, 95%);
+  padding: 10% 0;
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-size: 250%;
+}
+
+/* ------ PARAGRAPHS ------ */
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+/* ------ BUTTONS ------ */
+.btn {
+  margin-top: 60px;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 200px;
+  background-color: hsl(0, 0%, 95%);
+  border: 1px solid transparent;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: transparent;
+  border: 1px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+}
+
+.box-left a {
+  color: hsl(31, 77%, 52%);
+}
+
+.box-middle a {
+  color: hsl(184, 100%, 22%);
+}
+
+.box-right a {
+  color: hsl(179, 100%, 13%);
+}
+
+/* ------ ATTRIBUTION ------ */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
